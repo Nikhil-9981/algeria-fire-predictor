@@ -1,0 +1,645 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:my FWI result is:  [8.06374283]
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:21:42] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:my FWI result is:  [8.06374283]
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:24:08] "POST /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  [9.0463805]
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:24:31] "POST /predict_data HTTP/1.1" 200 -
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:my FWI result is:  [9.0463805]
+INFO:root:Problem in prediction is : 'Collection' object is not callable. If you meant to call the 'insert' method on a 'Collection' object it is failing because no such method exists.
+ERROR:app:Exception on /predict_data [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1801, in make_response
+    raise TypeError(
+TypeError: The view function for 'predict_datapoint' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:38:02] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:root:my FWI result is:  [9.0463805]
+INFO:root:Problem in prediction is : 'Collection' object is not callable. If you meant to call the 'insert' method on a 'Collection' object it is failing because no such method exists.
+ERROR:app:Exception on /predict_data [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1801, in make_response
+    raise TypeError(
+TypeError: The view function for 'predict_datapoint' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:38:08] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.16:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:my FWI result is:  [9.0463805]
+INFO:root:Problem in prediction is : 'Collection' object is not callable. If you meant to call the 'insert' method on a 'Collection' object it is failing because no such method exists.
+ERROR:app:Exception on /predict_data [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1801, in make_response
+    raise TypeError(
+TypeError: The view function for 'predict_datapoint' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:41:56] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:42:49] "GET /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  [3.56931177]
+INFO:root:Problem in prediction is : 'Collection' object is not callable. If you meant to call the 'insert' method on a 'Collection' object it is failing because no such method exists.
+ERROR:app:Exception on /predict_data [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1801, in make_response
+    raise TypeError(
+TypeError: The view function for 'predict_datapoint' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:43:07] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:45:12] "GET /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  [8.69011268]
+INFO:root:Error is: cannot encode object: array([8.69011268]), of type: <class 'numpy.ndarray'>
+ERROR:app:Exception on /predict_data [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1801, in make_response
+    raise TypeError(
+TypeError: The view function for 'predict_datapoint' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:45:30] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:my FWI result is:  [8.69011268]
+INFO:root:Error is: documents must be a non-empty list
+ERROR:app:Exception on /predict_data [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1801, in make_response
+    raise TypeError(
+TypeError: The view function for 'predict_datapoint' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:48:32] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Error is: name 'temperature' is not defined
+ERROR:app:Exception on /predict_data [POST]
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 49, in predict_datapoint
+    new_data_scaled = standard_scaler.transform([[temperature, RH, Ws, Rain, FFMC, DMC, ISI, Classes, Region]])
+NameError: name 'temperature' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 63, in predict_datapoint
+    return render_template('error.html')
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/config/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: error.html
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:52:27] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:my FWI result is:  [8.69011268]
+INFO:root:Error is: cannot encode object: array([8.69011268]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:57:00] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:57:01] "GET /predict_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:57:01] "GET /predict_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:57:02] "GET /predict_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:57:02] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 1.0, 'ISI': 13.0, 'Classes': 1.0, 'Region': 11.0, 'The final score of FWI is ': array([8.69011268])}
+INFO:root:Error is: cannot encode object: array([8.69011268]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:59:13] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:59:14] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:59:14] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:59:14] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 02:59:15] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 1.0, 'ISI': 13.0, 'Classes': 1.0, 'Region': 11.0, 'The final score of FWI is ': array([8.69011268])}
+INFO:root:Error is: cannot encode object: array([8.69011268]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:02:21] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:03:57] "GET /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 1.0, 'ISI': 13.0, 'Classes': 1.0, 'Region': 11.0, 'The final score of FWI is ': array([8.69011268])}
+INFO:root:Error is: cannot encode object: array([8.69011268]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:03:59] "POST /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 1.0, 'ISI': 13.0, 'Classes': 1.0, 'Region': 11.0, 'The final score of FWI is ': array([8.69011268])}
+INFO:root:Error is: cannot encode object: array([8.69011268]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:04:06] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:04:07] "GET /predict_data HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:04:10] "GET /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 1.0, 'DMC': 1.0, 'ISI': 13.0, 'Classes': 1.0, 'Region': 1.0, 'The final score of FWI is ': array([17.30622458])}
+INFO:root:Error is: cannot encode object: array([17.30622458]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:04:30] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:09:29] "GET /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  {'temperature': 1.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 15.0, 'FFMC': 2.0, 'DMC': 21.0, 'ISI': 23.0, 'Classes': 21.0, 'Region': 23.0, 'The final score of FWI is ': array([33.69893105])}
+INFO:root:Error is: cannot encode object: array([33.69893105]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:09:47] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:10:24] "GET /predict_data HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:10:25] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:Error is: cannot encode object: array([-4.59691101]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:11:19] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:my FWI result is:  {'temperature': 1.0, 'RH': 14.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 1.0, 'ISI': 1.0, 'Classes': 1.0, 'Region': 11.0, 'The final score of FWI is ': array([-4.59691101])}
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:12:12] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:root:my FWI result is:  {'temperature': 1.0, 'RH': 14.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 1.0, 'ISI': 1.0, 'Classes': 1.0, 'Region': 11.0, 'The final score of FWI is ': array([-4.59691101])}
+INFO:root:Error is: cannot encode object: array([-4.59691101]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:24:27] "POST /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  {'temperature': 1.0, 'RH': 14.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 1.0, 'ISI': 1.0, 'Classes': 1.0, 'Region': 11.0, 'The final score of FWI is ': array([-4.59691101])}
+INFO:root:Error is: cannot encode object: array([-4.59691101]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:24:38] "POST /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  {'temperature': 1.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 15.0, 'FFMC': 2.0, 'DMC': 21.0, 'ISI': 23.0, 'Classes': 21.0, 'Region': 23.0, 'The final score of FWI is ': array([33.69893105])}
+INFO:root:Error is: cannot encode object: array([33.69893105]), of type: <class 'numpy.ndarray'>
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:24:44] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:25:03] "GET /predict_data HTTP/1.1" 200 -
+INFO:root:my FWI result is:  {'temperature': 1.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 15.0, 'FFMC': 2.0, 'DMC': 21.0, 'ISI': 23.0, 'Classes': 21.0, 'Region': 23.0, 'The final score of FWI is ': array([33.69893105])}
+INFO:werkzeug:172.18.0.2 - - [06/Aug/2023 03:25:06] "POST /predict_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+INFO:werkzeug: * Detected change in '/config/workspace/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Pinged your deployment. You successfully connected to MongoDB!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 854-527-332
+2023-08-06 03:30:21,324 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:30:21,391 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+2023-08-06 03:30:21,392 werkzeug INFO [33mPress CTRL+C to quit[0m
+2023-08-06 03:30:21,392 werkzeug INFO  * Restarting with stat
+2023-08-06 03:30:22,543 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:30:22,608 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:30:22,608 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:31:24,723 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:31:25,348 werkzeug INFO  * Restarting with stat
+2023-08-06 03:31:26,511 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:31:26,575 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:31:26,575 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:31:46,138 root INFO my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 1.0, 'ISI': 13.0, 'Classes': 1.0, 'Region': 1.0}
+2023-08-06 03:31:46,296 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:31:46] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:32:48,266 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:32:48,808 werkzeug INFO  * Restarting with stat
+2023-08-06 03:32:49,945 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:32:50,012 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:32:50,012 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:32:53,426 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:32:54,144 werkzeug INFO  * Restarting with stat
+2023-08-06 03:32:55,296 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:32:55,360 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:32:55,360 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:32:58,776 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:32:59,427 werkzeug INFO  * Restarting with stat
+2023-08-06 03:33:28,380 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:33:28,446 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+2023-08-06 03:33:28,446 werkzeug INFO [33mPress CTRL+C to quit[0m
+2023-08-06 03:33:28,447 werkzeug INFO  * Restarting with stat
+2023-08-06 03:33:29,652 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:33:29,719 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:33:29,720 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:34:08,714 root INFO my FWI result is:  {'temperature': 1.0, 'RH': 23.0, 'Ws': 3.0, 'Rain': 4.0, 'FFMC': 6.0, 'DMC': 5.0, 'ISI': 8.0, 'Classes': 8.0, 'Region': 9.0, 'The Predicted FWI value is :': array([12.10220886])}
+2023-08-06 03:34:08,716 root INFO Error is: cannot encode object: array([12.10220886]), of type: <class 'numpy.ndarray'>
+2023-08-06 03:34:08,720 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:34:08] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:34:43,794 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:34:44,461 werkzeug INFO  * Restarting with stat
+2023-08-06 03:34:53,339 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:34:53,406 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+2023-08-06 03:34:53,407 werkzeug INFO [33mPress CTRL+C to quit[0m
+2023-08-06 03:34:53,407 werkzeug INFO  * Restarting with stat
+2023-08-06 03:34:54,549 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:34:54,615 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:34:54,615 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:34:57,610 root INFO my FWI result is:  {'temperature': 1.0, 'RH': 23.0, 'Ws': 3.0, 'Rain': 4.0, 'FFMC': 6.0, 'DMC': 5.0, 'ISI': 8.0, 'Classes': 8.0, 'Region': 9.0, 'The Predicted FWI value is :': array([12.10220886])}
+2023-08-06 03:34:57,611 root INFO Error is: cannot encode object: array([12.10220886]), of type: <class 'numpy.ndarray'>
+2023-08-06 03:34:57,615 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:34:57] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:35:21,952 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:35:22,328 werkzeug INFO  * Restarting with stat
+2023-08-06 03:35:23,476 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:35:23,540 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:35:23,540 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:35:26,169 root INFO my FWI result is:  {'temperature': 1.0, 'RH': 23.0, 'Ws': 3.0, 'Rain': 4.0, 'FFMC': 6.0, 'DMC': 5.0, 'ISI': 8.0, 'Classes': 8.0, 'Region': 9.0}
+2023-08-06 03:35:26,187 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:35:26] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:35:36,767 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:35:37,192 werkzeug INFO  * Restarting with stat
+2023-08-06 03:35:38,349 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:35:38,412 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:35:38,413 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:35:45,083 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:35:45,523 werkzeug INFO  * Restarting with stat
+2023-08-06 03:35:46,707 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:35:46,772 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:35:46,773 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:36:04,247 root INFO my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 24.0, 'Rain': 1.0, 'FFMC': 1.0, 'DMC': 1.0, 'ISI': 13.0, 'Classes': 14.0, 'Region': 1.0, 'Result': array([28.29819798])}
+2023-08-06 03:36:04,249 root INFO Error is: cannot encode object: array([28.29819798]), of type: <class 'numpy.ndarray'>
+2023-08-06 03:36:04,253 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:36:04] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:39:55,835 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:39:56,554 werkzeug INFO  * Restarting with stat
+2023-08-06 03:40:05,131 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:40:05,199 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.16:8000
+2023-08-06 03:40:05,199 werkzeug INFO [33mPress CTRL+C to quit[0m
+2023-08-06 03:40:05,200 werkzeug INFO  * Restarting with stat
+2023-08-06 03:40:06,330 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:40:06,395 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:40:06,395 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:40:10,412 root INFO my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 24.0, 'Rain': 1.0, 'FFMC': 1.0, 'DMC': 1.0, 'ISI': 13.0, 'Classes': 14.0, 'Region': 1.0, 'Result': 28.298197977088726}
+2023-08-06 03:40:10,431 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:40:10] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:41:15,034 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:41:15,600 werkzeug INFO  * Restarting with stat
+2023-08-06 03:41:16,760 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:41:16,825 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:41:16,826 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:41:21,332 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:41:21,985 werkzeug INFO  * Restarting with stat
+2023-08-06 03:41:23,124 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:41:23,188 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:41:23,188 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:41:30,966 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:41:31,317 werkzeug INFO  * Restarting with stat
+2023-08-06 03:41:32,466 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:41:32,533 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:41:32,534 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:41:51,678 root INFO my FWI result is:  {'temperature': 42.0, 'RH': 14.0, 'Ws': 1.0, 'Rain': 1.0, 'FFMC': 14.0, 'DMC': 12.0, 'ISI': 13.0, 'Classes': 1.0, 'Region': 11.0, 'The Predicted FWI value is :': 11.705883890658079}
+2023-08-06 03:41:51,690 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:41:51] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:42:54,222 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:42:54,824 werkzeug INFO  * Restarting with stat
+2023-08-06 03:42:56,095 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:42:56,161 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:42:56,161 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:42:57,421 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:42:58,134 werkzeug INFO  * Restarting with stat
+2023-08-06 03:42:59,301 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:42:59,367 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:42:59,367 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:43:03,890 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:43:04,545 werkzeug INFO  * Restarting with stat
+2023-08-06 03:43:05,719 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:43:05,785 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:43:05,785 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:43:07,024 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:43:07,459 werkzeug INFO  * Restarting with stat
+2023-08-06 03:43:08,603 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:43:08,670 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:43:08,670 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:43:14,258 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:43:14,860 werkzeug INFO  * Restarting with stat
+2023-08-06 03:43:15,976 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:43:16,044 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:43:16,044 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:43:41,357 root INFO my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 24.0, 'Rain': 15.0, 'FFMC': 1.0, 'DMC': 12.0, 'ISI': 13.0, 'Classes': 14.0, 'Region': 1.0, 'The Predicted FWI value is :': 31.278012368803584}
+2023-08-06 03:43:41,357 root INFO Error is: name 'mydi' is not defined
+2023-08-06 03:43:41,362 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:43:41] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:44:22,495 werkzeug INFO  * Detected change in '/config/workspace/app.py', reloading
+2023-08-06 03:44:23,232 werkzeug INFO  * Restarting with stat
+2023-08-06 03:44:24,364 root INFO Pinged your deployment. You successfully connected to MongoDB!
+2023-08-06 03:44:24,431 werkzeug WARNING  * Debugger is active!
+2023-08-06 03:44:24,432 werkzeug INFO  * Debugger PIN: 854-527-332
+2023-08-06 03:44:25,052 root INFO my FWI result is:  {'temperature': 42.0, 'RH': 1.0, 'Ws': 24.0, 'Rain': 15.0, 'FFMC': 1.0, 'DMC': 12.0, 'ISI': 13.0, 'Classes': 14.0, 'Region': 1.0, 'The Predicted FWI value is :': 31.278012368803584}
+2023-08-06 03:44:25,071 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:44:25] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 03:53:07,469 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:53:07] "GET / HTTP/1.1" 200 -
+2023-08-06 03:53:14,273 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:53:14] "[33mGET /home.html HTTP/1.1[0m" 404 -
+2023-08-06 03:54:06,890 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:54:06] "GET / HTTP/1.1" 200 -
+2023-08-06 03:54:39,458 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:54:39] "[33mGET /home.html HTTP/1.1[0m" 404 -
+2023-08-06 03:59:52,536 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:59:52] "GET / HTTP/1.1" 200 -
+2023-08-06 03:59:59,005 root INFO Error is: float() argument must be a string or a number, not 'NoneType'
+2023-08-06 03:59:59,007 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 03:59:59] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 04:03:12,903 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:12] "GET / HTTP/1.1" 200 -
+2023-08-06 04:03:15,397 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:15] "GET / HTTP/1.1" 200 -
+2023-08-06 04:03:17,258 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:17] "GET / HTTP/1.1" 200 -
+2023-08-06 04:03:18,623 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:18] "GET / HTTP/1.1" 200 -
+2023-08-06 04:03:32,202 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-08-06 04:03:32,721 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:32] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-06 04:03:32,855 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:32] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-06 04:03:33,360 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-06 04:03:33,841 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-06 04:03:51,266 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-08-06 04:03:51,826 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-06 04:03:51,830 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-06 04:03:52,344 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-06 04:03:52,789 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:03:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-06 04:04:01,841 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:04:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-08-06 04:04:02,378 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:04:02] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-06 04:04:02,395 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:04:02] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-06 04:04:02,887 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:04:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-06 04:04:33,898 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:04:33] "GET /predict_data HTTP/1.1" 200 -
+2023-08-06 04:04:56,091 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:04:56] "GET / HTTP/1.1" 200 -
+2023-08-06 04:05:00,910 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:05:00] "GET /predict_data HTTP/1.1" 200 -
+2023-08-06 04:06:02,085 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:06:02] "GET / HTTP/1.1" 200 -
+2023-08-06 04:06:17,207 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:06:17] "GET /predict_data HTTP/1.1" 200 -
+2023-08-06 04:07:06,079 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:07:06] "GET / HTTP/1.1" 200 -
+2023-08-06 04:07:07,815 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:07:07] "GET /predict_data HTTP/1.1" 200 -
+2023-08-06 04:07:30,697 root INFO my FWI result is:  {'temperature': 42.0, 'RH': 14.0, 'Ws': 3.0, 'Rain': 15.0, 'FFMC': 14.0, 'DMC': 12.0, 'ISI': 1.0, 'Classes': 1.0, 'Region': 23.0, 'The Predicted FWI value is :': -11.3128248217245}
+2023-08-06 04:07:30,713 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:07:30] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 04:08:30,236 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:08:30] "GET /predict_data HTTP/1.1" 200 -
+2023-08-06 04:08:35,031 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:08:35] "GET / HTTP/1.1" 200 -
+2023-08-06 04:08:36,532 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:08:36] "GET /predict_data HTTP/1.1" 200 -
+2023-08-06 04:09:01,895 root INFO my FWI result is:  {'temperature': 1.0, 'RH': 14.0, 'Ws': 24.0, 'Rain': 2.0, 'FFMC': 1.0, 'DMC': 1.0, 'ISI': 8.0, 'Classes': 0.0, 'Region': 23.0, 'The Predicted FWI value is :': -6.386147090134293}
+2023-08-06 04:09:01,901 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:09:01] "POST /predict_data HTTP/1.1" 200 -
+2023-08-06 04:10:51,024 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:10:51] "GET /predict_data HTTP/1.1" 200 -
+2023-08-06 04:11:00,801 werkzeug INFO 172.18.0.2 - - [06/Aug/2023 04:11:00] "GET /predict_data HTTP/1.1" 200 -
