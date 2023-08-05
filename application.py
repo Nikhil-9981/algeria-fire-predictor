@@ -28,7 +28,9 @@ FWI_Prediction1 = client['FWI_Prediction']
 Predicted_values1 = FWI_Prediction1['Predicted_values']
 
 
-app = Flask(__name__)
+application = Flask(__name__)
+
+app = application
 
 # import ridge regressor and standat scaler pickl
 ridge_model = pickle.load(open("models/Ridge_regressor.pkl",'rb'))
